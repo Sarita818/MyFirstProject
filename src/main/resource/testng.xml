@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MyFirstProject" verbose="1">
+  
+  <!-- Example: you can pass parameters like browser name here if you read them in your setup -->
+  <parameter name="browser" value="chrome"/>
+
+  <test name="FunctionalTests">
+    <classes>
+      <!-- Fully qualified class name(s) of your TestNG test classes -->
+      <class name="com.ca.qa.testcases.LoginPageTest"/>
+      <class name="com.ca.qa.testcases.CalanderPageTest"/>
+      <class name="com.ca.qa.testcases.HomePageTest"/>
+      <!-- add more classes as needed -->
+    </classes>
+  </test>
+
+</suite>

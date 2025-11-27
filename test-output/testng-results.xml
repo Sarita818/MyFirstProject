@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-27T17:07:48 IST" name="MyFirstProject" finished-at="2025-11-27T17:08:56 IST" duration-ms="68406">
+    <groups>
+    </groups>
+    <test started-at="2025-11-27T17:07:48 IST" name="FunctionalTests" finished-at="2025-11-27T17:08:56 IST" duration-ms="68406">
+      <class name="com.ca.qa.testcases.CalanderPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@24269709]" started-at="2025-11-27T17:08:17 IST" name="setup" finished-at="2025-11-27T17:08:27 IST" duration-ms="10171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCalenderNavigationandFunctionality()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@24269709]" started-at="2025-11-27T17:08:27 IST" name="validateCalenderNavigationandFunctionality" finished-at="2025-11-27T17:08:28 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCalenderNavigationandFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@24269709]" started-at="2025-11-27T17:08:28 IST" name="tearDown" finished-at="2025-11-27T17:08:31 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ca.qa.testcases.CalanderPageTest -->
+      <class name="com.ca.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.HomePageTest@2aceadd4]" started-at="2025-11-27T17:08:31 IST" name="setup" finished-at="2025-11-27T17:08:38 IST" duration-ms="7060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserIsOnHomePage()[pri:1, instance:com.ca.qa.testcases.HomePageTest@2aceadd4]" started-at="2025-11-27T17:08:38 IST" name="validateUserIsOnHomePage" finished-at="2025-11-27T17:08:40 IST" duration-ms="1855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserIsOnHomePage -->
+        <test-method is-config="true" signature="teerDown()[pri:0, instance:com.ca.qa.testcases.HomePageTest@2aceadd4]" started-at="2025-11-27T17:08:40 IST" name="teerDown" finished-at="2025-11-27T17:08:44 IST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teerDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.HomePageTest@2aceadd4]" started-at="2025-11-27T17:08:44 IST" name="setup" finished-at="2025-11-27T17:08:51 IST" duration-ms="7006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCalanderFunctionalityOnHomePage()[pri:2, instance:com.ca.qa.testcases.HomePageTest@2aceadd4]" started-at="2025-11-27T17:08:51 IST" name="validateCalanderFunctionalityOnHomePage" finished-at="2025-11-27T17:08:53 IST" duration-ms="1929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCalanderFunctionalityOnHomePage -->
+        <test-method is-config="true" signature="teerDown()[pri:0, instance:com.ca.qa.testcases.HomePageTest@2aceadd4]" started-at="2025-11-27T17:08:53 IST" name="teerDown" finished-at="2025-11-27T17:08:56 IST" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teerDown -->
+      </class> <!-- com.ca.qa.testcases.HomePageTest -->
+      <class name="com.ca.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@5b12b668]" started-at="2025-11-27T17:07:48 IST" name="setup" finished-at="2025-11-27T17:07:53 IST" duration-ms="4911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPagelogoValidation()[pri:1, instance:com.ca.qa.testcases.LoginPageTest@5b12b668]" started-at="2025-11-27T17:07:53 IST" name="loginPagelogoValidation" finished-at="2025-11-27T17:07:53 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagelogoValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@5b12b668]" started-at="2025-11-27T17:07:53 IST" name="tearDown" finished-at="2025-11-27T17:07:56 IST" duration-ms="3268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@5b12b668]" started-at="2025-11-27T17:07:56 IST" name="setup" finished-at="2025-11-27T17:08:00 IST" duration-ms="4137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="vlaidateUserabletoNavigateToSignInForm()[pri:2, instance:com.ca.qa.testcases.LoginPageTest@5b12b668]" started-at="2025-11-27T17:08:00 IST" name="vlaidateUserabletoNavigateToSignInForm" finished-at="2025-11-27T17:08:03 IST" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vlaidateUserabletoNavigateToSignInForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@5b12b668]" started-at="2025-11-27T17:08:03 IST" name="tearDown" finished-at="2025-11-27T17:08:06 IST" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@5b12b668]" started-at="2025-11-27T17:08:06 IST" name="setup" finished-at="2025-11-27T17:08:11 IST" duration-ms="4375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserabletoNavigatetoHomepagepostLogin()[pri:3, instance:com.ca.qa.testcases.LoginPageTest@5b12b668]" started-at="2025-11-27T17:08:11 IST" name="validateUserabletoNavigatetoHomepagepostLogin" finished-at="2025-11-27T17:08:13 IST" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserabletoNavigatetoHomepagepostLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@5b12b668]" started-at="2025-11-27T17:08:13 IST" name="tearDown" finished-at="2025-11-27T17:08:17 IST" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ca.qa.testcases.LoginPageTest -->
+    </test> <!-- FunctionalTests -->
+  </suite> <!-- MyFirstProject -->
+</testng-results>

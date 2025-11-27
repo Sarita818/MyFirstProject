@@ -33,9 +33,6 @@ public class HomePageTest extends TestBase {
 		homePage.clickOnCalendarIcon();
 	}
 	
-	
-	
-	
 	@AfterMethod
 	public void teerDown() {
 		driver.quit();

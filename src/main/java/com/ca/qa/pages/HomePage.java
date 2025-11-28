@@ -20,7 +20,8 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//span[contains(text(),'Calendar')]")
 	WebElement calendarIcon;
 	
-	
+	@FindBy(xpath="//span[contains(text(),'Forms')]")
+	WebElement form_icon;
 	//Initialize the WebElements
 	
 	public HomePage() {
@@ -43,5 +44,11 @@ public class HomePage extends TestBase {
 	}
 	
 	
-
+	public FormPage clickOnFormIcon() {
+		boolean val = form_icon.isDisplayed();
+		Assert.assertTrue(val, "Form icon should display post login");
+		form_icon.click();
+		return new FormPage();
+		
+	}
 }

@@ -27,10 +27,16 @@
     <scope>compile</scope>
 </dependency>
 <dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>5.5.0</version>
+  <groupId>org.apache.poi</groupId>
+  <artifactId>poi</artifactId>
+  <version>5.2.3</version>  <!-- or a stable recent version -->
 </dependency>
+<dependency>
+  <groupId>org.apache.poi</groupId>
+  <artifactId>poi-ooxml</artifactId>
+  <version>5.2.3</version>
+</dependency>
+
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
@@ -40,6 +46,11 @@
   <groupId>ch.qos.logback</groupId>
   <artifactId>logback-classic</artifactId>
   <version>1.2.13</version>  <!-- or latest stable -->
+</dependency>
+<dependency>
+    <groupId>net.rcarz</groupId>
+    <artifactId>jira-client</artifactId>
+    <version>0.5</version>
 </dependency>
   </dependencies>
 </project>

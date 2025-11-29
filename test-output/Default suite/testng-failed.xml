@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ca.qa.testcases.CalanderPageTest">
+      <class name="com.ca.qa.testcases.FormPageTest">
         <methods>
-          <include name="validateCalenderNavigationandFunctionality"/>
           <include name="tearDown"/>
+          <include name="validateformPagewithDataDrivenapproach" invocation-numbers="0 1 2 3 4 5"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.ca.qa.testcases.CalanderPageTest -->
+      </class> <!-- com.ca.qa.testcases.FormPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,13 +1,18 @@
 package com.ca.qa.util;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -68,6 +73,13 @@ public class TestUtil extends TestBase {
 	            return data;
 	        }
 	    }
+	    
+		public void takeScreenshotAtEndOfTest() throws IOException {
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			String currentDir = System.getProperty("C:\\Users\\sarita.kumari\\eclipse-workspace\\MyFirtsProject");
+			FileUtils.copyFile(scrFile, new File(currentDir+"/screenshots/"+System.currentTimeMillis()+".png"));
+			}
+
 
 
 }

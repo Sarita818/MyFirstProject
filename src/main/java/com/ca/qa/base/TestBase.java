@@ -9,8 +9,11 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringDecorator;
+import org.openqa.selenium.support.events.WebDriverListener;
 
 import com.ca.qa.util.TestUtil;
+import com.ca.qa.util.WebEventListener;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -44,11 +47,15 @@ public class TestBase {
 	           driver=new FirefoxDriver();
 		}
 		
+        WebEventListener listener = new WebEventListener();
+        driver = new EventFiringDecorator(listener).decorate(driver);
+
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(TestUtil.Implicit_Wait,TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.Page_load_Timeout,TimeUnit.SECONDS);
 		
 		driver.get(prop.getProperty("url"));
-	}
+		
+		}
 }

@@ -52,5 +52,10 @@
     <artifactId>jira-client</artifactId>
     <version>0.5</version>
 </dependency>
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
+</dependency>
   </dependencies>
 </project>

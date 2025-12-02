@@ -2,156 +2,88 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-29T12:15:36 IST" name="Default suite" finished-at="2025-11-29T12:17:20 IST" duration-ms="103517">
+  <suite started-at="2025-12-02T17:57:12 IST" name="MyFirstProject" finished-at="2025-12-02T17:59:24 IST" duration-ms="131546">
     <groups>
     </groups>
-    <test started-at="2025-11-29T12:15:36 IST" name="Default test" finished-at="2025-11-29T12:17:20 IST" duration-ms="103517">
-      <class name="com.ca.qa.testcases.FormPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:15:37 IST" name="setup" finished-at="2025-11-29T12:15:49 IST" duration-ms="12440" status="PASS">
+    <test started-at="2025-12-02T17:57:12 IST" name="FunctionalTests" finished-at="2025-12-02T17:59:24 IST" duration-ms="131546">
+      <class name="com.ca.qa.testcases.CalanderPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@ae13544]" started-at="2025-12-02T17:58:07 IST" name="setup" finished-at="2025-12-02T17:58:31 IST" duration-ms="23888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:15:49 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-11-29T12:15:51 IST" duration-ms="1353" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Abs]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rew]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateCalenderNavigationandFunctionality()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@ae13544]" started-at="2025-12-02T17:58:31 IST" name="validateCalenderNavigationandFunctionality" finished-at="2025-12-02T17:58:33 IST" duration-ms="2113" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateformPagewithDataDrivenapproach -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:15:51 IST" name="tearDown" finished-at="2025-11-29T12:15:54 IST" duration-ms="3581" status="PASS">
+        </test-method> <!-- validateCalenderNavigationandFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@ae13544]" started-at="2025-12-02T17:58:33 IST" name="tearDown" finished-at="2025-12-02T17:58:37 IST" duration-ms="3942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:15:54 IST" name="setup" finished-at="2025-11-29T12:16:04 IST" duration-ms="9903" status="PASS">
+      </class> <!-- com.ca.qa.testcases.CalanderPageTest -->
+      <class name="com.ca.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:58:37 IST" name="setup" finished-at="2025-12-02T17:58:55 IST" duration-ms="17321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:04 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-11-29T12:16:05 IST" duration-ms="1020" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[svahg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[djssjgd]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateUserIsOnHomePage()[pri:1, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:58:55 IST" name="validateUserIsOnHomePage" finished-at="2025-12-02T17:58:57 IST" duration-ms="2745" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateformPagewithDataDrivenapproach -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:05 IST" name="tearDown" finished-at="2025-11-29T12:16:09 IST" duration-ms="3515" status="PASS">
+        </test-method> <!-- validateUserIsOnHomePage -->
+        <test-method is-config="true" signature="teerDown()[pri:0, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:58:57 IST" name="teerDown" finished-at="2025-12-02T17:59:01 IST" duration-ms="3589" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:09 IST" name="setup" finished-at="2025-11-29T12:16:20 IST" duration-ms="11845" status="PASS">
+        </test-method> <!-- teerDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:59:01 IST" name="setup" finished-at="2025-12-02T17:59:17 IST" duration-ms="16565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:20 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-11-29T12:16:22 IST" duration-ms="1392" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dcnbjdgv]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mcbdjvkjd]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateCalanderFunctionalityOnHomePage()[pri:2, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:59:17 IST" name="validateCalanderFunctionalityOnHomePage" finished-at="2025-12-02T17:59:20 IST" duration-ms="2591" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateformPagewithDataDrivenapproach -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:22 IST" name="tearDown" finished-at="2025-11-29T12:16:26 IST" duration-ms="3723" status="PASS">
+        </test-method> <!-- validateCalanderFunctionalityOnHomePage -->
+        <test-method is-config="true" signature="teerDown()[pri:0, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:59:20 IST" name="teerDown" finished-at="2025-12-02T17:59:24 IST" duration-ms="3645" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:26 IST" name="setup" finished-at="2025-11-29T12:16:37 IST" duration-ms="11903" status="PASS">
+        </test-method> <!-- teerDown -->
+      </class> <!-- com.ca.qa.testcases.HomePageTest -->
+      <class name="com.ca.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:12 IST" name="setup" finished-at="2025-12-02T17:57:27 IST" duration-ms="14547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:37 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-11-29T12:16:39 IST" duration-ms="1534" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[cmbdsckjds]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[nmcbdmvhkd]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="loginPagelogoValidation()[pri:1, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:27 IST" name="loginPagelogoValidation" finished-at="2025-12-02T17:57:27 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateformPagewithDataDrivenapproach -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:39 IST" name="tearDown" finished-at="2025-11-29T12:16:43 IST" duration-ms="3662" status="PASS">
+        </test-method> <!-- loginPagelogoValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:27 IST" name="tearDown" finished-at="2025-12-02T17:57:30 IST" duration-ms="3430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:43 IST" name="setup" finished-at="2025-11-29T12:16:53 IST" duration-ms="10596" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:30 IST" name="setup" finished-at="2025-12-02T17:57:42 IST" duration-ms="11533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:53 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-11-29T12:16:55 IST" duration-ms="1234" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dnvdshv]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ vnkjdvkj]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="vlaidateUserabletoNavigateToSignInForm()[pri:2, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:42 IST" name="vlaidateUserabletoNavigateToSignInForm" finished-at="2025-12-02T17:57:47 IST" duration-ms="5246" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateformPagewithDataDrivenapproach -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:55 IST" name="tearDown" finished-at="2025-11-29T12:16:58 IST" duration-ms="3159" status="PASS">
+        </test-method> <!-- vlaidateUserabletoNavigateToSignInForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:47 IST" name="tearDown" finished-at="2025-12-02T17:57:51 IST" duration-ms="3817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:16:58 IST" name="setup" finished-at="2025-11-29T12:17:15 IST" duration-ms="17616" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:51 IST" name="setup" finished-at="2025-12-02T17:58:00 IST" duration-ms="8756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:17:15 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-11-29T12:17:17 IST" duration-ms="1238" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[cdigsvu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ ckdkv]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateUserabletoNavigatetoHomepagepostLogin()[pri:3, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:58:00 IST" name="validateUserabletoNavigatetoHomepagepostLogin" finished-at="2025-12-02T17:58:04 IST" duration-ms="4282" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateformPagewithDataDrivenapproach -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@3bf7ca37]" started-at="2025-11-29T12:17:17 IST" name="tearDown" finished-at="2025-11-29T12:17:20 IST" duration-ms="3236" status="PASS">
+        </test-method> <!-- validateUserabletoNavigatetoHomepagepostLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:58:04 IST" name="tearDown" finished-at="2025-12-02T17:58:07 IST" duration-ms="3379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ca.qa.testcases.FormPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.ca.qa.testcases.LoginPageTest -->
+    </test> <!-- FunctionalTests -->
+  </suite> <!-- MyFirstProject -->
 </testng-results>

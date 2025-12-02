@@ -5,7 +5,10 @@
   
   <!-- Example: you can pass parameters like browser name here if you read them in your setup -->
   <parameter name="browser" value="chrome"/>
-
+  <listeners>
+  <listener class-name="com.ca.qa.ExtentReportListener.ExtentReportNG"></listener>
+  
+  </listeners>
   <test name="FunctionalTests">
     <classes>
       <!-- Fully qualified class name(s) of your TestNG test classes -->

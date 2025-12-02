@@ -15,6 +15,7 @@
       <class name="com.ca.qa.testcases.LoginPageTest"/>
       <class name="com.ca.qa.testcases.CalanderPageTest"/>
       <class name="com.ca.qa.testcases.HomePageTest"/>
+      <class name="com.ca.qa.testcases.FormPageTest"></class>
       <!-- add more classes as needed -->
     </classes>
   </test>

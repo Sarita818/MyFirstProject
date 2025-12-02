@@ -1,89 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="7" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-02T17:57:12 IST" name="MyFirstProject" finished-at="2025-12-02T17:59:24 IST" duration-ms="131546">
+  <suite started-at="2025-12-02T18:06:17 IST" name="MyFirstProject" finished-at="2025-12-02T18:11:55 IST" duration-ms="338279">
     <groups>
     </groups>
-    <test started-at="2025-12-02T17:57:12 IST" name="FunctionalTests" finished-at="2025-12-02T17:59:24 IST" duration-ms="131546">
+    <test started-at="2025-12-02T18:06:17 IST" name="FunctionalTests" finished-at="2025-12-02T18:11:55 IST" duration-ms="338279">
       <class name="com.ca.qa.testcases.CalanderPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@ae13544]" started-at="2025-12-02T17:58:07 IST" name="setup" finished-at="2025-12-02T17:58:31 IST" duration-ms="23888" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@33c911a1]" started-at="2025-12-02T18:07:36 IST" name="setup" finished-at="2025-12-02T18:07:54 IST" duration-ms="18376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateCalenderNavigationandFunctionality()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@ae13544]" started-at="2025-12-02T17:58:31 IST" name="validateCalenderNavigationandFunctionality" finished-at="2025-12-02T17:58:33 IST" duration-ms="2113" status="PASS">
+        <test-method signature="validateCalenderNavigationandFunctionality()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@33c911a1]" started-at="2025-12-02T18:07:54 IST" name="validateCalenderNavigationandFunctionality" finished-at="2025-12-02T18:07:56 IST" duration-ms="1506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCalenderNavigationandFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@ae13544]" started-at="2025-12-02T17:58:33 IST" name="tearDown" finished-at="2025-12-02T17:58:37 IST" duration-ms="3942" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.CalanderPageTest@33c911a1]" started-at="2025-12-02T18:07:56 IST" name="tearDown" finished-at="2025-12-02T18:07:59 IST" duration-ms="3181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ca.qa.testcases.CalanderPageTest -->
       <class name="com.ca.qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:58:37 IST" name="setup" finished-at="2025-12-02T17:58:55 IST" duration-ms="17321" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.HomePageTest@75db5df9]" started-at="2025-12-02T18:07:59 IST" name="setup" finished-at="2025-12-02T18:08:20 IST" duration-ms="21248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateUserIsOnHomePage()[pri:1, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:58:55 IST" name="validateUserIsOnHomePage" finished-at="2025-12-02T17:58:57 IST" duration-ms="2745" status="PASS">
+        <test-method signature="validateUserIsOnHomePage()[pri:1, instance:com.ca.qa.testcases.HomePageTest@75db5df9]" started-at="2025-12-02T18:08:20 IST" name="validateUserIsOnHomePage" finished-at="2025-12-02T18:08:23 IST" duration-ms="2475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserIsOnHomePage -->
-        <test-method is-config="true" signature="teerDown()[pri:0, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:58:57 IST" name="teerDown" finished-at="2025-12-02T17:59:01 IST" duration-ms="3589" status="PASS">
+        <test-method is-config="true" signature="teerDown()[pri:0, instance:com.ca.qa.testcases.HomePageTest@75db5df9]" started-at="2025-12-02T18:08:23 IST" name="teerDown" finished-at="2025-12-02T18:08:28 IST" duration-ms="5746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teerDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:59:01 IST" name="setup" finished-at="2025-12-02T17:59:17 IST" duration-ms="16565" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.HomePageTest@75db5df9]" started-at="2025-12-02T18:08:28 IST" name="setup" finished-at="2025-12-02T18:08:51 IST" duration-ms="22794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateCalanderFunctionalityOnHomePage()[pri:2, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:59:17 IST" name="validateCalanderFunctionalityOnHomePage" finished-at="2025-12-02T17:59:20 IST" duration-ms="2591" status="PASS">
+        <test-method signature="validateCalanderFunctionalityOnHomePage()[pri:2, instance:com.ca.qa.testcases.HomePageTest@75db5df9]" started-at="2025-12-02T18:08:51 IST" name="validateCalanderFunctionalityOnHomePage" finished-at="2025-12-02T18:08:55 IST" duration-ms="3673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCalanderFunctionalityOnHomePage -->
-        <test-method is-config="true" signature="teerDown()[pri:0, instance:com.ca.qa.testcases.HomePageTest@3d34d211]" started-at="2025-12-02T17:59:20 IST" name="teerDown" finished-at="2025-12-02T17:59:24 IST" duration-ms="3645" status="PASS">
+        <test-method is-config="true" signature="teerDown()[pri:0, instance:com.ca.qa.testcases.HomePageTest@75db5df9]" started-at="2025-12-02T18:08:55 IST" name="teerDown" finished-at="2025-12-02T18:08:59 IST" duration-ms="3773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teerDown -->
       </class> <!-- com.ca.qa.testcases.HomePageTest -->
       <class name="com.ca.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:12 IST" name="setup" finished-at="2025-12-02T17:57:27 IST" duration-ms="14547" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@2a5c8d3f]" started-at="2025-12-02T18:06:17 IST" name="setup" finished-at="2025-12-02T18:06:35 IST" duration-ms="17652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPagelogoValidation()[pri:1, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:27 IST" name="loginPagelogoValidation" finished-at="2025-12-02T17:57:27 IST" duration-ms="107" status="PASS">
+        <test-method signature="loginPagelogoValidation()[pri:1, instance:com.ca.qa.testcases.LoginPageTest@2a5c8d3f]" started-at="2025-12-02T18:06:35 IST" name="loginPagelogoValidation" finished-at="2025-12-02T18:06:35 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPagelogoValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:27 IST" name="tearDown" finished-at="2025-12-02T17:57:30 IST" duration-ms="3430" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@2a5c8d3f]" started-at="2025-12-02T18:06:35 IST" name="tearDown" finished-at="2025-12-02T18:06:38 IST" duration-ms="3252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:30 IST" name="setup" finished-at="2025-12-02T17:57:42 IST" duration-ms="11533" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@2a5c8d3f]" started-at="2025-12-02T18:06:38 IST" name="setup" finished-at="2025-12-02T18:06:58 IST" duration-ms="20337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="vlaidateUserabletoNavigateToSignInForm()[pri:2, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:42 IST" name="vlaidateUserabletoNavigateToSignInForm" finished-at="2025-12-02T17:57:47 IST" duration-ms="5246" status="PASS">
+        <test-method signature="vlaidateUserabletoNavigateToSignInForm()[pri:2, instance:com.ca.qa.testcases.LoginPageTest@2a5c8d3f]" started-at="2025-12-02T18:06:58 IST" name="vlaidateUserabletoNavigateToSignInForm" finished-at="2025-12-02T18:07:08 IST" duration-ms="9958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vlaidateUserabletoNavigateToSignInForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:47 IST" name="tearDown" finished-at="2025-12-02T17:57:51 IST" duration-ms="3817" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@2a5c8d3f]" started-at="2025-12-02T18:07:08 IST" name="tearDown" finished-at="2025-12-02T18:07:12 IST" duration-ms="3982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:57:51 IST" name="setup" finished-at="2025-12-02T17:58:00 IST" duration-ms="8756" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@2a5c8d3f]" started-at="2025-12-02T18:07:12 IST" name="setup" finished-at="2025-12-02T18:07:26 IST" duration-ms="13460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateUserabletoNavigatetoHomepagepostLogin()[pri:3, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:58:00 IST" name="validateUserabletoNavigatetoHomepagepostLogin" finished-at="2025-12-02T17:58:04 IST" duration-ms="4282" status="PASS">
+        <test-method signature="validateUserabletoNavigatetoHomepagepostLogin()[pri:3, instance:com.ca.qa.testcases.LoginPageTest@2a5c8d3f]" started-at="2025-12-02T18:07:26 IST" name="validateUserabletoNavigatetoHomepagepostLogin" finished-at="2025-12-02T18:07:32 IST" duration-ms="6501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserabletoNavigatetoHomepagepostLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@6ed3ccb2]" started-at="2025-12-02T17:58:04 IST" name="tearDown" finished-at="2025-12-02T17:58:07 IST" duration-ms="3379" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.LoginPageTest@2a5c8d3f]" started-at="2025-12-02T18:07:32 IST" name="tearDown" finished-at="2025-12-02T18:07:36 IST" duration-ms="3476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ca.qa.testcases.LoginPageTest -->
+      <class name="com.ca.qa.testcases.FormPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:08:59 IST" name="setup" finished-at="2025-12-02T18:09:25 IST" duration-ms="25970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:09:25 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-12-02T18:09:26 IST" duration-ms="1109" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rew]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Submit button should be enabled expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Submit button should be enabled expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.ca.qa.pages.FormPage.validateFormPagefunctionality(FormPage.java:49)
+at com.ca.qa.testcases.FormPageTest.validateformPagewithDataDrivenapproach(FormPageTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateformPagewithDataDrivenapproach -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:09:26 IST" name="tearDown" finished-at="2025-12-02T18:09:30 IST" duration-ms="3694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:09:30 IST" name="setup" finished-at="2025-12-02T18:09:56 IST" duration-ms="26352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:09:56 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-12-02T18:09:58 IST" duration-ms="1138" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[svahg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[djssjgd]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Submit button should be enabled expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Submit button should be enabled expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.ca.qa.pages.FormPage.validateFormPagefunctionality(FormPage.java:49)
+at com.ca.qa.testcases.FormPageTest.validateformPagewithDataDrivenapproach(FormPageTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateformPagewithDataDrivenapproach -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:09:58 IST" name="tearDown" finished-at="2025-12-02T18:10:01 IST" duration-ms="3932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:10:01 IST" name="setup" finished-at="2025-12-02T18:10:28 IST" duration-ms="26864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:10:28 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-12-02T18:10:30 IST" duration-ms="1219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dcnbjdgv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mcbdjvkjd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateformPagewithDataDrivenapproach -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:10:30 IST" name="tearDown" finished-at="2025-12-02T18:10:33 IST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:10:33 IST" name="setup" finished-at="2025-12-02T18:10:53 IST" duration-ms="19695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:10:53 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-12-02T18:10:54 IST" duration-ms="1143" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cmbdsckjds]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nmcbdmvhkd]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Submit button should be enabled expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Submit button should be enabled expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.ca.qa.pages.FormPage.validateFormPagefunctionality(FormPage.java:49)
+at com.ca.qa.testcases.FormPageTest.validateformPagewithDataDrivenapproach(FormPageTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateformPagewithDataDrivenapproach -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:10:54 IST" name="tearDown" finished-at="2025-12-02T18:10:54 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:10:54 IST" name="setup" finished-at="2025-12-02T18:11:19 IST" duration-ms="24454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:11:19 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-12-02T18:11:20 IST" duration-ms="1156" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dnvdshv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ vnkjdvkj]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Submit button should be enabled expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Submit button should be enabled expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.ca.qa.pages.FormPage.validateFormPagefunctionality(FormPage.java:49)
+at com.ca.qa.testcases.FormPageTest.validateformPagewithDataDrivenapproach(FormPageTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateformPagewithDataDrivenapproach -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:11:20 IST" name="tearDown" finished-at="2025-12-02T18:11:23 IST" duration-ms="3636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:11:23 IST" name="setup" finished-at="2025-12-02T18:11:51 IST" duration-ms="27108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateformPagewithDataDrivenapproach(java.lang.String,java.lang.String)[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:11:51 IST" name="validateformPagewithDataDrivenapproach" data-provider="gettestData" finished-at="2025-12-02T18:11:52 IST" duration-ms="1174" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cdigsvu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ckdkv]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Submit button should be enabled expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Submit button should be enabled expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.ca.qa.pages.FormPage.validateFormPagefunctionality(FormPage.java:49)
+at com.ca.qa.testcases.FormPageTest.validateformPagewithDataDrivenapproach(FormPageTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateformPagewithDataDrivenapproach -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ca.qa.testcases.FormPageTest@707194ba]" started-at="2025-12-02T18:11:52 IST" name="tearDown" finished-at="2025-12-02T18:11:55 IST" duration-ms="3624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ca.qa.testcases.FormPageTest -->
     </test> <!-- FunctionalTests -->
   </suite> <!-- MyFirstProject -->
 </testng-results>
